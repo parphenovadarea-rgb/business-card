@@ -1,0 +1,13 @@
+body { margin: 0; background: #d4d0ea; color: #2b2333; font-family: Arial, sans-serif; font-size: 16px; }
+main { max-width: 700px; margin: 0 auto; padding: 24px 16px; }
+h1 { font-size: 26px; margin: 0 0 24px; letter-spacing: 1px; text-transform: uppercase; }
+form { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+label.check { flex-direction: row; align-items: center; }
+input, select, button { font: inherit; padding: 6px 8px; border: 1px solid #b89a7a; border-radius: 6px; background: #fff; color: #2b2333; }
+input[type="checkbox"] { padding: 0; }
+button { cursor: pointer; background: #7a344c; color: #fff; border-color: #7a344c; }
+button:hover { background: #5e2639; }
+img { max-width: 100%; height: auto; box-shadow: 0 6px 20px rgba(80, 50, 90, .25); }
+.message { border: 1px solid #7a344c; background: #fff; padding: 8px 10px; }
+.note { font-size: 14px; }
